@@ -13,6 +13,12 @@ This repo will have Azure related applications and scripts.
 - [x] [prod.findasnake.com ](https://prod.findasnake.com)
 - [x] [dev.findasnake.com ](https://dev.findasnake.com)
 
+/api/hello?name=Murtadha
+/api/bye?name=Murtadha
+/api/json
+
+
+
 ####  Dockerfile
 
 ```dockerfile
