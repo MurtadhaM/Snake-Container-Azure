@@ -13,8 +13,8 @@ This repo will have Azure related applications and scripts.
 - [x] [prod.findasnake.com ](https://prod.findasnake.com)
 - [x] [dev.findasnake.com ](https://dev.findasnake.com)
 
-- [x] Dockerfile
-  
+####  Dockerfile
+
 ```dockerfile
 FROM node:12.18.3-alpine3.12 
 LABEL maintainer="Murtadha Marzouq"
@@ -34,8 +34,7 @@ ENTRYPOINT ["/sbin/tini", "--"]
 ```
 ---
 
-- [x] commands
-
+#### Podman Commands
 ```bash
 ## Build the image
 podman build . --tag docker.io/mmarzouq/snake-node-app:latest
